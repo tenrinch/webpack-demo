@@ -19,7 +19,8 @@ module.exports = {
         clean: true
     },
     devServer: {
-        contentBase: './dist',
+        static: './dist',
+        compress: true,
         open: true
     }
 };
